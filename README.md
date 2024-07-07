@@ -62,17 +62,20 @@ Create a DataFrame that lists the average reading score for students of each gra
 # Scores by School Spending
 Create a table that breaks down school performance based on average spending ranges (per student).
 Use the code provided below to create four bins with reasonable cutoff values to group school spending.
+  
   spending_bins = [0, 585, 630, 645, 680]
   labels = ["<$585", "$585-630", "$630-645", "$645-680"]
+  
 Use pd.cut to categorize spending based on the bins.
 
 Use the following code to then calculate mean scores per spending range.
+  
   spending_math_scores = school_spending_df.groupby(["Spending Ranges (Per Student)"]).mean()["Average Math Score"]
   spending_reading_scores = school_spending_df.groupby(["Spending Ranges (Per Student)"]).mean()["Average Reading Score"]
   spending_passing_math = school_spending_df.groupby(["Spending Ranges (Per Student)"]).mean()["% Passing Math"]
   spending_passing_reading = school_spending_df.groupby(["Spending Ranges (Per Student)"]).mean()["% Passing Reading"]
   overall_passing_spending = school_spending_df.groupby(["Spending Ranges (Per Student)"]).mean()["% Overall Passing"]
-'
+  
 Use the scores above to create a DataFrame called spending_summary.
 
 Include the following metrics in the table:
