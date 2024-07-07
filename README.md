@@ -101,5 +101,6 @@ Use the per_school_summary DataFrame from the previous step to create a new Data
 This new DataFrame should show school performance based on the “School Type”.
 
 # References
-Used Happy Donut speedrun for debugging support on key error issues 
-Used Python resources for formatting and upgrade errors encounter on my version on Pandas
+Used Happy Donut speedrun for debugging support on key error issues.
+
+Used Python resources for formatting and upgrade errors encounter on my version on Pandas.
