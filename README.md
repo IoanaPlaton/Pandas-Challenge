@@ -103,4 +103,6 @@ This new DataFrame should show school performance based on the “School Type”
 # References
 Used Happy Donut speedrun for debugging support on key error issues.
 
+Used starter code provided in Happy Donut - it is slighly different than the starter code provided in Bootcamp Spot, but you're using the same date and get the same results.
+
 Used Python resources for formatting and upgrade errors encounter on my version on Pandas.
